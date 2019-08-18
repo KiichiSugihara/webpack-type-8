@@ -1,23 +1,28 @@
+https://github.com/jujunjun110/aframe-ts-template
+の clone
+
 # AFrame-TypeScript Template
-typescriptで開発をはじめるための自分用の雛形
+
+typescript で開発をはじめるための自分用の雛形
 
 ## 使い方
+
 セットアップ
 
 - git clone
 - cd aframe-ts-template
-- rm -rf .git 
+- rm -rf .git
 - git init
-
 
 開発・デプロイ
 
 - npm run dev → 開発サーバーの立ち上げ
 - npm run test → ユニットテスト
 - npm run dist → 本番反映用のビルド
-- npm run deploy → Github Pagesへのデプロイ
+- npm run deploy → Github Pages へのデプロイ
 
 ## プロジェクト構成
+
 ```
 ├── dist/
 │   ├── bundle.js
